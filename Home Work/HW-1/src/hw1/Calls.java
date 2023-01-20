@@ -19,9 +19,16 @@ public class Calls {
         this.t3 = t3;
     }
 
-    public void output() {
-        System.out.println("First country calls: " + (c1 * t1));
-        System.out.println("First country calls: " + (c2 * t2));
-        System.out.println("First country calls: " + (c3 * t3));
+    public String outputUkraine() {
+        String amountUkraine = String.valueOf(c1 * t1);
+        return amountUkraine;
+    }
+    public String outputCanada() {
+        String amountCanada = String.valueOf(c2 * t2);
+        return amountCanada;
+    }
+    public String outputLithuania() {
+        String amountLithuania = String.valueOf(c3 * t3);
+        return amountLithuania;
     }
 }
