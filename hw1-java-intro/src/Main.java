@@ -2,8 +2,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
-import hw.tasks.*;
-import practical.tasks.*;
+import homework.*;
+import practical.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
