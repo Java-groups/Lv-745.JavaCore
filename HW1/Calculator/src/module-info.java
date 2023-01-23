@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author maksurkiv
+ *
+ */
+module Calculator {
+}
