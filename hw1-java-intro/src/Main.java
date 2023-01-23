@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.text.DecimalFormat;
+
 import homework.*;
 import practical.*;
 
@@ -19,12 +20,6 @@ public class Main {
                 3.hw-task1
                 4.hw-task2
                 5.hw-task3
-                6.additional-task-you-cant-code-under-pressure-number-1
-                7.additional-task-function-3-multiplying-two-numbers
-                8.additional-task-volume-of-a-cuboid
-                9.additional-task-jennys-secret-message
-                10.additional-task-beginner-series-number-2-clock
-                11.additional-task-grasshopper-debugEnter
                 ___________________________________________________________
                 Enter your choice:""");
             choice = Byte.parseByte(br.readLine());
