@@ -15,11 +15,18 @@ public class Person {
         this.lastName = lastName;
     }
 
+    public Person (String firstName, String lastName, int birthYear) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthYear = birthYear;
+    }
+
     public String getFirstName() {
         return firstName;
     }
 
     public int getAge(){
+        if (birthYear==0){return 0;}
         return Year.now().getValue() - birthYear;
     }
 
