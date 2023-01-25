@@ -48,15 +48,19 @@ public class PearsonApp {
             }
 
             if (selector == 3){
-                personsArr[newPersonId] = new Person();
-                System.out.println("Enter first name:");
-                personsArr[newPersonId].input("firstName", br.readLine());
-                System.out.println("Enter last name:");
-                personsArr[newPersonId].input("lastName", br.readLine());
-                System.out.println("Enter birth year:");
-                personsArr[newPersonId].input("birthYear",br.readLine());
-                System.out.println("New record was created: "+ personsArr[newPersonId].output());
-                newPersonId++;
+                if (newPersonId < 10) {
+                    personsArr[newPersonId] = new Person();
+                    System.out.println("Enter first name:");
+                    personsArr[newPersonId].input("firstName", br.readLine());
+                    System.out.println("Enter last name:");
+                    personsArr[newPersonId].input("lastName", br.readLine());
+                    System.out.println("Enter birth year:");
+                    personsArr[newPersonId].input("birthYear", br.readLine());
+                    System.out.println("New record was created: " + personsArr[newPersonId].output());
+                    newPersonId++;
+                } else {
+                    System.out.println("Sorry you can't add more than 10 records.");
+                }
             }
 
         }
