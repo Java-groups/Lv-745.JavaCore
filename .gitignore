@@ -24,3 +24,7 @@ hs_err_pid*
 
 .DS_Store
 /.metadata/
+#Progect HW1
+HW1/.classpath
+HW1/.project
+HW1/.gitignore
