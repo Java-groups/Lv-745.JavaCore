@@ -5,7 +5,7 @@ N|Name| HW1 | HW2. Classes|HW3. If...|HW4. Loops|HW5. OOP1 |HW6. OOP2 |HW7. Inne
 1|Oleh Melnyk|+|+|+||||||||||  
 2|Oleksandr Tulush|+|+|+||||||||||  
 3|Maks|+|+|||||||||||  
-4|volodymyr Barv|||||||||||||  
+4|volodymyr Barv|+|+|+||||||||||  
 5|Nataliia Salo|||||||||||||  
 6|Alekadykalo|+||||||||||||  
 7|Roman Svych|||||||||||||  
