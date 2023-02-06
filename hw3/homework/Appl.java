@@ -14,7 +14,6 @@ public class Appl {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         System.out.println("--------FIRST TASK----------");
         float [] enteredFloats = new float[3];
         int inRange = 0, rangeMin = -5, rangeMax = 5;
@@ -48,21 +47,7 @@ public class Appl {
         System.out.println("--------THIRD TASK----------");
         System.out.print("Enter the number of HTTP Error:");
         int httpError = parseInt(br.readLine());
-        switch (httpError){
-            case 400 : System.out.println(HTTPError.BAD_REQUEST.getDisplayName()); break;
-            case 401 : System.out.println(HTTPError.UNAUTHORIZED.getDisplayName()); break;
-            case 402 : System.out.println(HTTPError.PAYMENT_REQUIRED.getDisplayName()); break;
-            case 403 : System.out.println(HTTPError.FORBIDDEN.getDisplayName()); break;
-            case 404 : System.out.println(HTTPError.NOT_FOUND.getDisplayName()); break;
-            case 405 : System.out.println(HTTPError.METHOD_NOT_ALLOWED.getDisplayName()); break;
-            case 406 : System.out.println(HTTPError.NOT_ACCEPTABLE.getDisplayName()); break;
-            case 407 : System.out.println(HTTPError.PROXY_AUTHENTICATION_REQUIRED.getDisplayName()); break;
-            case 408 : System.out.println(HTTPError.REQUEST_TIMEOUT.getDisplayName()); break;
-            case 409 : System.out.println(HTTPError.CONFLICT.getDisplayName()); break;
-            case 410 : System.out.println(HTTPError.GONE.getDisplayName()); break;
-            default: System.out.println("Wrong input!");
-        }
-
+        System.out.println(getDisplayNameByCode(httpError));
         System.out.println("\n\n");
         System.out.println("--------FOURTH TASK----------");
         Dog kuzya = new Dog("Kuzya",7,Breed.ZWERGPINSCHER);
@@ -80,5 +65,13 @@ public class Appl {
             System.out.println("Oldest dog: "+snoopy.print());
         }
 
+    }
+    public static String getDisplayNameByCode(int errcode){
+        for (HTTPError error: HTTPError.values()) {
+            if (error.getErrorCode()==errcode) {
+                return error.getDisplayName();
+            }
+        }
+        return "No error found by error code";
     }
 }
