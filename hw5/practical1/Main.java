@@ -6,6 +6,7 @@ public class Main {
         Truck ram = new Truck("RAM 1500", 180, 2022);
         Sedan honda = new Sedan("Honda Accord", 210, 2023);
         Sedan volkswagen = new Sedan("Volkswagen Passat", 210, 2020);
+        /*Create array cars use Car[] cars = new Car{new Truck ... , new Sedan etc...}*/
         Car[] cars = new Car[4];
         cars[0] = ford;
         cars[1] = ram;
