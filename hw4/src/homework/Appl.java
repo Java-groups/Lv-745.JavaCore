@@ -9,6 +9,7 @@ import static java.lang.Integer.parseInt;
 public class Appl {
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {
+        /*This approach is good, looks good, super*/
         System.out.println("--------FIRST TASK----------");
         taskOne();
         System.out.println("\n\n--------SECOND TASK----------");
@@ -32,6 +33,7 @@ public class Appl {
     }
 
     public static String getNameOfMonth (int numberOfMonth){
+        /*If month will be enum then will be better*/
         String[] monthNames = {"January", "February", "March", "April", "May", "June", "July",
                 "August", "September", "October", "November", "December"};
         return monthNames[numberOfMonth-1];
@@ -131,6 +133,7 @@ public class Appl {
         cars[2] = new Car("Sedan", 2018,1.6);
         cars[3] = new Car("SUV", 2022,2.5);
         Car[] orderedCars;
+        /*Separate blocks in a method with an empty line or two slashes to make the code more readable*/
         System.out.print("Enter the field year:");
         int enteredYear = parseInt(br.readLine());
         int totalCarsInYear = carsByYears (cars,enteredYear);
