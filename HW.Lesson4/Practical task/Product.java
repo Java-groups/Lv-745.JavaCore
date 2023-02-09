@@ -1,4 +1,5 @@
 public class Product {
+    /*At first must be fields and after that go constructors with parameters and without and after that getters and setters*/
     private String name;
     public String getName() {
         return name;
