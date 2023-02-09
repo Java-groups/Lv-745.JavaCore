@@ -2,6 +2,7 @@ public class Dog {
 
 
 public enum breed {POODLES("poodles"), SPANIEL("spaniel"), TERRIERS("terriers"), COCKAPOO("cockapoo"), BOXER("boxer");
+                   /*Enum do not have getters because this is enum, reread more information about enum. THIS class enum is not correct*/
     private String displayName;
     breed(String displayName) {
         this.displayName = displayName;
