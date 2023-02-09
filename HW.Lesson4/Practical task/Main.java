@@ -25,9 +25,12 @@ public class Main {
         System.out.println("There are " + num + " odd numbers.");
 
         System.out.println("********Task N2********");
+        /*For next two line you shuld create method, that method accept like parameter string, method print that message, after that
+        read data from user and return that, and there you call that method*/
         System.out.println("Enter the number of day, please:");
         String input = br.readLine();
         String result;
+        /*The days of week must be enum not string*/
         switch (input) {
             case "1":
                 result = "Monday. Понеділок";
@@ -83,6 +86,8 @@ public class Main {
         Product product3 = new Product("Tea", 3,21 );
         Product product4 = new Product("Chocolate", 4.3,12 );
 
+        /*For solve that problem write method in method use cycle, and in that cycle find max after that return that object with max price
+        there call that method and after that print result*/
         if(product1.getPrice() >= product2.getPrice() && product1.getPrice() >= product3.getPrice() && product1.getPrice() >= product4.getPrice()){
             System.out.println("The most expensive item is " + product1.getName() + ". The quantity of the most expensive item - " +  product1.getQuantity());
         }
