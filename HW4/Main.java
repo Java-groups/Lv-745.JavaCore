@@ -18,7 +18,8 @@ public class Main {
 
 //1 Ask user to enter the number of month. Read the value and write the number of days in
 //this month (create array with amount days of each month).
-
+        
+        /*Write each task in a separate method, and call methods there */
         Scanner sc = new Scanner(System.in);
         int [] days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         System.out.println("Введите номер мецяца чтоб узнать количество дней: ");
