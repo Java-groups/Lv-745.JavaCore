@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        /*Create a some method that accept a string and prints a message, and then returns the data entered by the user*/
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Insert month number");
         Month monthOfBirth = new Month(Integer.parseInt(br.readLine()));
