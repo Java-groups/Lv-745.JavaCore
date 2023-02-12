@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Homework5/Arr1/Arr1.iml" filepath="$PROJECT_DIR$/Homework5/Arr1/Arr1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework5/Arr2/Arr2.iml" filepath="$PROJECT_DIR$/Homework5/Arr2/Arr2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework5/Arr3/Arr3.iml" filepath="$PROJECT_DIR$/Homework5/Arr3/Arr3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework5/Arr4/Arr4.iml" filepath="$PROJECT_DIR$/Homework5/Arr4/Arr4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework6/HW1/HW1.iml" filepath="$PROJECT_DIR$/Homework6/HW1/HW1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework6/HW2/HW2.iml" filepath="$PROJECT_DIR$/Homework6/HW2/HW2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hometask1/Hometask1.iml" filepath="$PROJECT_DIR$/Hometask1/Hometask1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hometask2/Hometask2.iml" filepath="$PROJECT_DIR$/Hometask2/Hometask2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hometask3/Hometask3.iml" filepath="$PROJECT_DIR$/Hometask3/Hometask3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hometask3.2/Hometask3.2.iml" filepath="$PROJECT_DIR$/Hometask3.2/Hometask3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hometask3.3/Hometask3.3.iml" filepath="$PROJECT_DIR$/Hometask3.3/Hometask3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hometask3.4/Hometask3.4.iml" filepath="$PROJECT_DIR$/Hometask3.4/Hometask3.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homework1/Homework1.iml" filepath="$PROJECT_DIR$/Homework1/Homework1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Lv-745.JavaCore.iml" filepath="$PROJECT_DIR$/.idea/Lv-745.JavaCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practictask3.4/Practictask3.4.iml" filepath="$PROJECT_DIR$/Practictask3.4/Practictask3.4.iml" />
+    </modules>
+  </component>
+</project>
