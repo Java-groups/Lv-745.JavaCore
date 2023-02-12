@@ -1,10 +1,8 @@
+package com.softserve.edu01.practical;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.text.DecimalFormat;
-
-import homework.*;
-import practical.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -17,9 +15,6 @@ public class Main {
                 0.Exit
                 1.practical-task1
                 2.practical-task2
-                3.hw-task1
-                4.hw-task2
-                5.hw-task3
                 ___________________________________________________________
                 Enter your choice:""");
             choice = Byte.parseByte(br.readLine());
@@ -32,21 +27,6 @@ public class Main {
                 case 2 -> {
                     PracticalTask2 obj = new PracticalTask2();
                     System.out.println(obj.readAnswer());
-                }
-                case 3 -> {
-                    HwTask1 obj = new HwTask1();
-                    obj.readRadius();
-                    DecimalFormat ft = new DecimalFormat("#####.##");
-                    System.out.println("Flower bed perimetr: " + ft.format(obj.calculatePerimeter()) + "\narea: " + ft.format(obj.calculateArea()));
-                }
-                case 4 -> {
-                     HwTask2 obj = new HwTask2();
-                     System.out.println(obj.readNameAndAddress());
-                }
-                case 5 -> {
-                    HwTask3 obj = new HwTask3();
-                    obj.readTimeOfCall();
-                    System.out.println(obj.countUnits());
                 }
             }
         }

@@ -1,9 +1,11 @@
-package homework;
+package com.softserve.edu01.homework;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 /*
-Flower bed is shaped like a circle. Calculate the perimeter and area by entering the radius. Output obtained results.
+Flower bed is shaped like a circle.
+Calculate the perimeter and area by entering the radius.
+Output obtained results.
 */
 public class HwTask1 {
     double radius;
