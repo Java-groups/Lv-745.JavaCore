@@ -1,5 +1,3 @@
-package homework;
-
 import junit.framework.TestCase;
 import org.junit.*;
 

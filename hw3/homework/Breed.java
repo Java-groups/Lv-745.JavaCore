@@ -1,4 +1,4 @@
-package homework;
+package homework1;
 
 public enum Breed {
     DACHSHUND ("dachshund"),

@@ -1,7 +1,6 @@
 package homework;
 
 import junit.framework.TestCase;
-
 import java.io.*;
 
 public class ApplTest extends TestCase {
