@@ -6,6 +6,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Main{
     private static List<Integer> myCollection = new ArrayList<>();
     private static List<Integer> list1 = new ArrayList<>();
+    private static List<Integer> list2 = new ArrayList<>();
     public static void main(String[ ] args) {
         System.out.println("--------FIRST TASK. Fill myCollection with 10 integers ----------");
         myCollection.addAll(fillCollection(10));
@@ -21,8 +22,9 @@ public class Main{
         System.out.println(myCollection);
         System.out.println("--------FIFTH TASK. Copy the first k elements to the list1, in direct order, the rest in reverse order.----------");
         int k = 4;
-        list1.addAll(copyToList1(k));
-        System.out.println(list1);;
+        copyToLists(k);
+        System.out.println(list1);
+        System.out.println(list2);
         System.out.println("--------SIXTH TASK. In a list myCollection remove the last even element.----------");
         removeLastEven();
         System.out.println(myCollection);
@@ -72,19 +74,14 @@ public class Main{
             }
         }
     }
-    private static List<Integer> copyToList1(int k){
-        List<Integer> myLocalCollection = new ArrayList<>();
+    private static void copyToLists(int k){
         if (k<myCollection.size()) {
-            for (int i = 0; i < k; i++) {
-                myLocalCollection.add(myCollection.get(i));
-            }
-            for (int i = 1; i <= myCollection.size() - k; i++) {
-                myLocalCollection.add(myCollection.get(myCollection.size() - i));
-            }
+            list1 = myCollection.subList(0,k);
+            list2 =  myCollection.subList(k,myCollection.size());
+            Collections.reverse(list2);
         } else {
             System.out.println("K is too big. It have to be equal or smaller then myCollection size/");
         }
-        return myLocalCollection;
     }
 
     private static void removeLastEven(){
