@@ -23,6 +23,8 @@ public class Main {
 
         // Enum
 
+        /*This is not good, amagine if enum will have 1000 element, and what you will be creat 1000 variables?
+        will be good if you in operator switch get needed data and show user*/
         Days day1 = Days.Monday;
         Days day2 = Days.Tuesday;
         Days day3 = Days.Wednesday;
@@ -68,6 +70,7 @@ public class Main {
 
         //Enum Continents
 
+        /*This code is not correct becouse your enum is not correct*/
         Country country1 = Country.China;
         Country country2 = Country.Ethiopia;
         Country country3 = Country.France;

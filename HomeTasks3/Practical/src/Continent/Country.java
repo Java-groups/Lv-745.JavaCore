@@ -4,6 +4,7 @@ import Continent.Continent;
 
 public enum Country {
 
+    /*This code is not correct, and this class do not needed*/
     China(Continent.Asia), Ethiopia(Continent.Africa), France(Continent.Europe),
     UnitedStates(Continent.NorthAmerica), Chile(Continent.SouthAmerica), Fiji(Continent.Australia),
     Antarctica(Continent.Antarctica);

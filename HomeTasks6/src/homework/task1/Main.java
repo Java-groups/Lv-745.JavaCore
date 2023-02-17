@@ -12,6 +12,7 @@ public class Main {
         employees.add(new SalariedEmployee("3", "Alex", "1", 170, 100));
         employees.add(new SalariedEmployee("4", "Andriy", "2", 56, 120));
 
+        /*If next code do not need that delete that code do not leave it there*/
         // output origin array
 /*        System.out.println("--Origin array--");
         for ( int i = 0; i < employees.size() ; i++) {

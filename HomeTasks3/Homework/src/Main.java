@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        /*Do not write all code in main method, separate each tasks, write each task in unique method, and there call that methods*/
 
         // read 3 float numbers and check: are they all belong to the range [-5, 5];
 

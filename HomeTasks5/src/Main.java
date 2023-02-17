@@ -35,6 +35,8 @@ public class Main {
         // Creating a massive
         Line[] lines1 = new Line[2];
 
+        /*You can creant object Line write something like that = new Line(new Point(5, 10), new Point(2 , 5));
+        There is no need to create 2 point objects before this*/
         lines1[0] = new Line(p1,p2);
         lines1[1] = new ColorLine(p1,p2,"red"); // Polymorphism
 
@@ -45,6 +47,8 @@ public class Main {
         System.out.println(lines1[1]);
 
         // BirdHomework_1
+        /*And there you can create and put all object in array write something like that 
+        = new Bird{new Eagle("brown and white", false), new Swallow("blue and white", false) etc...};*/
         Bird[] birds = new Bird[4];
         birds[0] = new Eagle("brown and white", false);
         birds[1] = new Swallow("blue and white", false);
