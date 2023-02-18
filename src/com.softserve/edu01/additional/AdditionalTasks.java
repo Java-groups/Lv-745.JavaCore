@@ -1,6 +1,5 @@
 package com.softserve.edu01.additional;
 
-class AdditionalTasks {
     //https://www.codewars.com/kata/you-cant-code-under-pressure-number-1/
     class Java {
         public static int doubleInteger(int i) {
@@ -41,4 +40,3 @@ class AdditionalTasks {
             return c + " is" + ((c > 0.0) ? (" above ") : " ") + "freezing temperature";
         }
     }
-}
