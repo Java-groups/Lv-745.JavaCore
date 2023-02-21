@@ -7,10 +7,10 @@ public class Main {
 
         DecimalFormat ft = new DecimalFormat("#####.##");
 
-        Student firstStudent = new Student();
-        Student secondStudent = new Student("Oleg", 9.2);
-        Student thirdStudent = new Student("Vasyl", 10.4);
+        Student exmpl = new Student();
+        Student oleg = new Student("Oleg", 9.2);
+        Student vasyl = new Student("Vasyl", 10.4);
 
-        System.out.println("Average: " + ft.format(Student.avgRating(firstStudent.getRating(), secondStudent.getRating(), thirdStudent.getRating())) + "\nTotal Rating: " + Student.totalRating);
+        System.out.println("Average: " + ft.format(Student.avgRating(exmpl.getRating(), oleg.getRating(), vasyl.getRating())) + "\nTotal Rating: " + Student.totalRating);
     }
 }

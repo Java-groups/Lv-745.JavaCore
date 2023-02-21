@@ -69,12 +69,12 @@ public class Main {
 
                     }
                 case 4 -> {
-                        Dog dog1 = new Dog("Rex", POODLE, 3);
-                    Dog dog2 = new Dog("Bob", BULLDOG, 5);
-                    Dog dog3 = new Dog("Limbo", ROTTWEILER, 2);
+                    Dog rex = new Dog("Rex", POODLE, 3);
+                    Dog bob = new Dog("Bob", BULLDOG, 5);
+                    Dog limbo = new Dog("Limbo", ROTTWEILER, 2);
 
-                    System.out.println("Is Dogs Name Equal? " + dog1.isDogsNameEqual(dog2.isDogsNameEqual(dog3)));
-                    System.out.println("Name and kind of the oldest dog: " + dog1.nameKindOldestDog(dog2.nameKindOldestDog(dog3)));
+                    System.out.println("Is Dogs Name Equal? " + rex.isDogsNameEqual(bob.isDogsNameEqual(limbo)));
+                    System.out.println("Name and kind of the oldest dog: " + rex.nameKindOldestDog(bob.nameKindOldestDog(limbo)));
                     }
             }
         }

@@ -64,13 +64,13 @@ public class Main {
 
                 }
                 case 4 -> {
-                     Product obj1 = new Product("baluk",300,2);
-                     Product obj2 = new Product("ball",70,5);
-                     Product obj3 = new Product("lego",55,3);
-                     Product obj4 = new Product("hammer",105,4);
+                     Product baluk = new Product("baluk",300,2);
+                     Product ball = new Product("ball",70,5);
+                     Product lego = new Product("lego",55,3);
+                     Product hammer = new Product("hammer",105,4);
 
-                     System.out.println("Most Expensive Item: " + obj1.mostExpensiveItem(obj2.mostExpensiveItem(obj3.mostExpensiveItem(obj4))));
-                     System.out.println("Most Items Quantity: " + obj1.mostItemsQuantity(obj2.mostItemsQuantity(obj3.mostItemsQuantity(obj4))));
+                     System.out.println("Most Expensive Item: " + baluk.mostExpensiveItem(ball.mostExpensiveItem(lego.mostExpensiveItem(hammer))));
+                     System.out.println("Most Items Quantity: " + baluk.mostItemsQuantity(ball.mostItemsQuantity(lego.mostItemsQuantity(hammer))));
                 }
             }
         }while (choice!=0);
