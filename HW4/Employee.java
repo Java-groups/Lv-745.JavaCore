@@ -1,6 +1,9 @@
 package HW4;
 
 public class Employee {
+     
+     /*When you finished testing your code you must delete all not needed things, do not leave it there*/
+     
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //        System.out.println(" Введите количество департаментов: " );
