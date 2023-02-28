@@ -13,4 +13,4 @@ N|Name| HW1 | HW2. Classes|HW3. If...|HW4. Loops|HW5. OOP1 |HW6. OOP2 |HW7. Inne
 9|Liubov|+|+|+|+|+|+||+|+|+|+||  
 10|NazzP|+|+|+||+|+|+|+|+||||  
 11|Oksana|||||||||||||  
-12|Valeria Filaretova|+|+|+|+|||||||||
+12|Valeria Filaretova|+|+|+|+|+||||||||
