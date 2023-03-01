@@ -1,25 +1,24 @@
 import java.util.Comparator;
 
-public abstract class Employee implements Comparable<Employee>{
+public class Employee implements Comparable<Employee>{
     public static class BySalary implements Comparator<Employee> {
+
         @Override
-        public int compare(Employee o1, Employee o2) {
-            return (int) (o1.getSalary() - o2.getSalary());}
+        public int compare(Employee e1, Employee e2) {
+            return (int) (e1.getMonthSalary() - e2.getMonthSalary());
+        }
     }
-
     private String name;
-
     private String employeeId;
 
-    private double salary;
+    private double monthSalary;
 
-    public Employee() {
+    public double getMonthSalary() {
+        return monthSalary;
     }
 
-    public Employee(String name, String employeeId, double salary) {
-        this.name = name;
-        this.employeeId = employeeId;
-        this.salary = salary;
+    public void setMonthSalary(double monthSalary) {
+        this.monthSalary = monthSalary;
     }
 
     public String getName() {
@@ -38,12 +37,9 @@ public abstract class Employee implements Comparable<Employee>{
         this.employeeId = employeeId;
     }
 
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
+    @Override
+    public int compareTo(Employee workers ) {
+        return (int) (monthSalary - workers.getMonthSalary());
     }
 }
 

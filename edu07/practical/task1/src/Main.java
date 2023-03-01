@@ -13,12 +13,6 @@ public class Main {
                 new Dog("Oscar", 4),
                 new Dog("Tim", 3),
         };
-        for (Animal animal : animals) {
-            if (animal instanceof Cat || animal instanceof Dog) {
-                animal.voice();
-                animal.feed();
-            }
-        }
-
+   
     }
 }

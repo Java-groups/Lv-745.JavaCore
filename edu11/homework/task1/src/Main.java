@@ -7,10 +7,10 @@ public class Main {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
         String sentence;
+        System.out.print("Enter a sentence of five words: ");
+        sentence = scanner.nextLine();
+        String[] words = sentence.split("\\s+");
         do {
-            System.out.print("Enter a sentence of five words: ");
-            sentence = scanner.nextLine();
-            String[] words = sentence.split("\\s+");
             if (words.length != 5) {
                 System.out.println("Error: Sentence must contain exactly five words.");
             } else {
@@ -18,7 +18,6 @@ public class Main {
             }
         } while (true);
 
-        String[] words = sentence.split("\\s+");
 
         String longestWord = words[0];
         for (int i = 1; i < words.length; i++) {

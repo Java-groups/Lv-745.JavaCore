@@ -16,5 +16,6 @@ public abstract class Person {
         this.name = name;
     }
 
-    public abstract void print();
+    public void print() {
+    }
 }

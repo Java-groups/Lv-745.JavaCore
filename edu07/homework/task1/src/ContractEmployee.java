@@ -3,17 +3,13 @@ public class ContractEmployee extends Employee implements Payment{
 
     private int fixedMonthlyPayment;
 
-    public ContractEmployee() {
-    }
-
     public ContractEmployee(String name, String employeeId, String federalTaxIDMember, int fixedMonthlyPayment) {
         this.setName(name);
         this.setEmployeeId(employeeId);
         this.federalTaxIDMember = federalTaxIDMember;
         this.fixedMonthlyPayment = fixedMonthlyPayment;
-        this.setSalary(calculatePay());
+        this.setMonthSalary(calculatePay());
     }
-
 
     public String getFederalTaxIDMember() {
         return federalTaxIDMember;
@@ -42,12 +38,7 @@ public class ContractEmployee extends Employee implements Payment{
         return "SalariedEmployee{" + "name: " + this.getName() + '\'' +
                 "employee ID: " + this.getEmployeeId() + '\'' +
                 ", federal Tax ID Member: " + federalTaxIDMember + '\'' +
-                ", salary: " + this.getSalary() +
+                ", salary: " + this.calculatePay() +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Employee o) {
-        return (int) getSalary();
     }
 }

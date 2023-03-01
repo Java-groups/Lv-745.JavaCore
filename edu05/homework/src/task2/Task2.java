@@ -15,6 +15,7 @@ public class Task2 {
             if (array[q] >= 0) {
                 sum += array[q];
             } if (array[q] < 0 ) positiveValue = false;
+            break;
         }
     }
     public static void getProductLast5 (int[] array) {

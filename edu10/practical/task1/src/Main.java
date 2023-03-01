@@ -33,10 +33,7 @@ public class Main {
         System.out.println("Display the map on the screen: ");
 
         for (var pair : employeeMap.entrySet()) {
-            Integer ID = pair.getKey();
-            String name = pair.getValue();
-
-            System.out.println(ID + " - " + name);
+            System.out.println(pair.getKey() + " - " + pair.getValue());
         }
     }
     public static void getNameByID() {

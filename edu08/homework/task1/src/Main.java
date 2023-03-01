@@ -3,17 +3,24 @@ public class Main {
         run();
     }
 
-    public static void run() throws CloneNotSupportedException {
-        Student student1 = new Student(new FullName("Andriy", "Combo"), 22, 3);
-        Student student2 = new Student(new FullName("Alina", "Dumbl"), 21, 2);
-        System.out.println(student1.info());
-        System.out.println(student1.active());
-        System.out.println(student2.info());
-        System.out.println(student2.active());
-        Student clonStudent = (Student) student1.clone();
-        clonStudent.setCourse(4);
-        System.out.println(student1.info());
-        System.out.println(student2.info());
-        System.out.println(clonStudent.info());
+    public static void run() {
+        Student students[] = new Student[2];
+        students[0] = new Student(new FullName("Andriy", "Combo"), 22, 3);
+        students[1] = new Student(new FullName("Alina", "Dumbl"), 21, 2);
+        for (Student student : students) {
+            System.out.println(student.info());
+            System.out.println(student.active());
+        }
+        try {
+            Student clonStudent = (Student) students[0].clone();
+            clonStudent.setCourse(4);
+            System.out.println(clonStudent.info());
+        } catch (CloneNotSupportedException a) {
+            a.printStackTrace();
+        }
+        for (Student student : students) {
+            System.out.println(student.info());
+            System.out.println(student.active());
+        }
     }
 }

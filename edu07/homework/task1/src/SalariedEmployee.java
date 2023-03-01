@@ -14,9 +14,8 @@ public class SalariedEmployee extends Employee implements Payment {
         this.socialSecurityNumber = socialSecurityNumber;
         this.workHours = workHours;
         this.hourlyRate = hourlyRate;
-        this.setSalary(calculatePay());
+        this.setMonthSalary(calculatePay());
     }
-
 
     public int getWorkHours() {
         return workHours;
@@ -53,12 +52,7 @@ public class SalariedEmployee extends Employee implements Payment {
         return "SalariedEmployee{" + "name: " + this.getName() + '\'' +
                 "employee ID: " + this.getEmployeeId() + '\'' +
                 ", social security number: " + socialSecurityNumber + '\'' +
-                ", salary: " + this.getSalary() +
+                ", salary: " + this.getMonthSalary() +
                 '}';
-    }
-
-    @Override
-    public int compareTo(Employee o) {
-        return (int) getSalary();
     }
 }
