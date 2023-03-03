@@ -45,7 +45,7 @@ public class Main {
         Matcher matcher = pattern.matcher(text);
         while (matcher.find()) {
             String match = matcher.group();
-            System.out.println(match);
+            System.out.println(matcher.group());
         }
     }
 }
