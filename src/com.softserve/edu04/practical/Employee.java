@@ -29,6 +29,7 @@ public class Employee {
         this.salary = salary;
     }
 
+    public Employee(){}
     public Employee(String name, int departmentNumber, int salary) {
         setName(name);
         setDepartmentNumber(departmentNumber);

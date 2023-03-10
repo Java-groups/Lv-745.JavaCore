@@ -28,10 +28,12 @@ public class Car {
        public void setEngineCapacity(int engineCapacity) {
               this.engineCapacity = engineCapacity;
        }
+
+       public Car(){}
        public Car(String type, int yearProduction, int engineCapacity) {
-              this.type = type;
-              this.yearProduction = yearProduction;
-              this.engineCapacity = engineCapacity;
+              setType(type);
+              setYearProduction(yearProduction);
+              setEngineCapacity(engineCapacity);
        }
 
        @Override
