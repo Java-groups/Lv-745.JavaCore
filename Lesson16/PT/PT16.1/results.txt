@@ -1,0 +1,9 @@
+Line 1 has 17 symbols.
+Line 2 has 36 symbols.
+Line 3 has 29 symbols.
+Line 4 has 31 symbols.
+
+Longest line: I started working at my job in 2007.
+Shortest line: I am a geologist.
+
+Lines that contain the word "var":

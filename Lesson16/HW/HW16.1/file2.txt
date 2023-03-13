@@ -1,0 +1,3 @@
+Number of lines in file1.txt: 4
+Longest line in file1.txt: I started working at my job in 2007.
+My name is Liubov and my birthday date is 28.08.1985.
