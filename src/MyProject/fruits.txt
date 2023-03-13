@@ -1,0 +1,7 @@
+Apple ,Red
+Lemon ,Yellow
+Lime ,Green
+Melon ,Yellow
+Orange ,Orange
+PineApple ,Yellow
+WaterMelon ,Red
