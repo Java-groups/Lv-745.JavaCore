@@ -60,6 +60,7 @@ public class Appl {
 
                     TaskSix six = new TaskSix();
                     six.execute();
+                    break;
 
                 }
                 case 7-> {
@@ -71,7 +72,7 @@ public class Appl {
                 case 9-> {
                     TaskNine nine = new TaskNine();
                     nine.execute();
-
+                    break;
                 }
                 case 10-> {
 
