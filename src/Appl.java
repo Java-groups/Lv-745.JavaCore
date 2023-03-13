@@ -51,7 +51,7 @@ public class Appl {
 
                 }
                 case 5-> {
-
+                    System.out.println("Task 5 - " + Task5.palindrome());
                 }
                 case 6-> {
 
@@ -72,13 +72,13 @@ public class Appl {
 
                 }
                 case 12-> {
-
+                    System.out.println("Task 12 - " + Task12.sum());
                 }
                 case 13-> {
 
                 }
                 case 14-> {
-
+                    System.out.println("Task 14  - " + Task14.countCoinCombinations());
                 }
                 default -> {
                     System.out.println("Wrong choice! Repeat again!");
