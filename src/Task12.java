@@ -1,5 +1,3 @@
-package src;
-
 public class Task12 {
     public static int sum() {
         int sum = 0;
