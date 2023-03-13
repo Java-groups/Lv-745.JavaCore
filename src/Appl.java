@@ -1,3 +1,5 @@
+import src.TaskTwo;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -42,7 +44,8 @@ public class Appl {
 
                 }
                 case 2 -> {
-
+                    TaskTwo taskTwo = new TaskTwo();
+                    taskTwo.execute();
                 }
                 case 3-> {
 
