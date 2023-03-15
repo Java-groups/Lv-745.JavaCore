@@ -1,4 +1,4 @@
-package com.softserve.edu02.additional;
+package additional;
 
 //https://www.codewars.com/kata/lombok-encapsulation
 class EncapsulationDemo {

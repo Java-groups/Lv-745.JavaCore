@@ -1,4 +1,4 @@
-package com.softserve.edu02.example;
+package example;
 
 import java.text.DecimalFormat;
 

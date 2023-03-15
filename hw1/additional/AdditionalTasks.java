@@ -1,4 +1,4 @@
-package com.softserve.edu01.additional;
+package additional;
 
     //https://www.codewars.com/kata/you-cant-code-under-pressure-number-1/
     class Java {

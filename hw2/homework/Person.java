@@ -1,4 +1,4 @@
-package com.softserve.edu02.homework;
+package homework;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.softserve.edu13.practicaltask2;
+package practical2;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
