@@ -48,7 +48,7 @@ public class Menu {
                       choice = 0;
                 }
                 case 1 -> {
-                    System.out.println("\nCurrent UAH to USD " + operatorAPI.GetCurrentCourseUAHtoDollar());
+                    System.out.println("\nCurrent UAH to USD " + operatorAPI.getCurrentCourseUAHtoDollar());
                 }
                 case 2 -> {
                     System.out.print("\nCourse UAH to USD: ");

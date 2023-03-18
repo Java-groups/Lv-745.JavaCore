@@ -1,0 +1,3 @@
+1.1)number of lines in file1.txt: 37
+1.2) the longest line in file1.txt: Performed all checkout procedures quickly and accurately each time, while also promoting the store credit card to customers.
+1.3) Full Name: James Morris was born Birthday: 18.07.1991

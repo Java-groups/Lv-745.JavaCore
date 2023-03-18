@@ -42,7 +42,7 @@ public class OperatorAPI {
     public String getAlphaNumericString() {
         return AlphaNumericString;
     }
-    public String GetCurrentCourseUAHtoDollar() throws UnsupportedEncodingException {
+    public String getCurrentCourseUAHtoDollar() throws UnsupportedEncodingException {
 
     StringBuilder IDjsonObject = new StringBuilder(getMAX_LENGTH());
         for (int i = 0; i < getMAX_LENGTH(); i++) {
@@ -72,7 +72,7 @@ public class OperatorAPI {
         String result = null;
         String regex = "\\d+(\\.\\d+)";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(this.GetCurrentCourseUAHtoDollar());
+        Matcher matcher = pattern.matcher(this.getCurrentCourseUAHtoDollar());
         while (matcher.find()) {
             result = matcher.group();
         }
