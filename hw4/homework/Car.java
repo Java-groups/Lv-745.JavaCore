@@ -20,7 +20,7 @@ public class Car {
               this.yearProduction = yearProduction;
        }
 
-       public int getEngineCapacity() {
+       public  int getEngineCapacity() {
               return engineCapacity;
        }
 
@@ -37,10 +37,6 @@ public class Car {
 
        @Override
        public String toString() {
-              return "Car{" +
-                      "type='" + type + '\'' +
-                      ", yearProduction=" + yearProduction +
-                      ", engineCapacity=" + engineCapacity +
-                      '}';
+              return "Car{type=" + getType() + ", yearProduction=" + getYearProduction() + ", engineCapacity=" + getEngineCapacity() + "}";
        }
 }
